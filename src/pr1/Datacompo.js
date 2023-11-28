@@ -9,7 +9,7 @@ function Datacompo(props){
     useEffect(()=>{
 
     
-    axios.get('http://localhost:3030/api/backenddata')
+    axios.get('https://bolgbackend.onrender.com/api/backenddata')
 
   .then(response => {
 
